@@ -3,21 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolBet.Web", "GolBet.Web\GolBet.Web.csproj", "{00C43B03-AD1D-4E52-ADDF-9490207E7083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GolBet.Web", "GolBet.Web\GolBet.Web.csproj", "{00C43B03-AD1D-4E52-ADDF-9490207E7083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolBet.Services", "GolBet.Services\GolBet.Services.csproj", "{9939585D-E5D3-44D7-95DB-194443C8882B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GolBet.Services", "GolBet.Services\GolBet.Services.csproj", "{9939585D-E5D3-44D7-95DB-194443C8882B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolBet.Repositories", "GolBet.Repositories\GolBet.Repositories.csproj", "{AFBBD854-EFF0-44C1-9B84-C09ECCE34FC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GolBet.Repositories", "GolBet.Repositories\GolBet.Repositories.csproj", "{AFBBD854-EFF0-44C1-9B84-C09ECCE34FC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolBet.Entities", "GolBet.Entities\GolBet.Entities.csproj", "{299D00DA-E7AF-4F4E-917F-53025BC0CEC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GolBet.Entities", "GolBet.Entities\GolBet.Entities.csproj", "{299D00DA-E7AF-4F4E-917F-53025BC0CEC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{00C43B03-AD1D-4E52-ADDF-9490207E7083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +33,8 @@ Global
 		{299D00DA-E7AF-4F4E-917F-53025BC0CEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{299D00DA-E7AF-4F4E-917F-53025BC0CEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{299D00DA-E7AF-4F4E-917F-53025BC0CEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
